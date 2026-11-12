@@ -126,7 +126,7 @@ engine, rag_matcher = load_models()
 # -------------------------------------------------------------
 # Main Content
 # -------------------------------------------------------------
-st.title("CleanDS")
+st.title("CleanML")
 st.markdown("## Upload dataset")
 
 uploaded_file = st.file_uploader(
