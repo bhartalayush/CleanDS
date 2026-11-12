@@ -16,7 +16,7 @@ from models.rag_matcher import PolicyRAGMatcher
 # App Configuration
 # -------------------------------------------------------------
 st.set_page_config(
-    page_title="CleanDS",
+    page_title="CleanML",
     page_icon="🧹",
     layout="centered",
     initial_sidebar_state="collapsed"
