@@ -1,12 +1,12 @@
-# CleanDS: Task-Aware Automated Data Cleaning Pipeline
+# CleanML: Task-Aware Automated Data Cleaning Pipeline
 
-CleanDS is an intelligent, goal-oriented dataset preprocessing engine. Instead of applying one-size-fits-all heuristic scripts, CleanDS adapts its preprocessing operations based on the **intended downstream machine learning or analytical objective**.
+CleanML is an intelligent, goal-oriented dataset preprocessing engine. Instead of applying one-size-fits-all heuristic scripts, CleanDS adapts its preprocessing operations based on the **intended downstream machine learning or analytical objective**.
 
 ---
 
 ## 🏗️ System Architecture & Workflow
 
-CleanDS structures data cleaning as a cascading, task-aware machine learning pipeline:
+CleanML structures data cleaning as a cascading, task-aware machine learning pipeline:
 
 ```
                       [ User Natural Language Goal ]
@@ -71,7 +71,7 @@ CleanDS structures data cleaning as a cascading, task-aware machine learning pip
 
 ## 🎯 Supported Domain & General Playbooks
 
-CleanDS comes pre-configured with 16 task-specific cleaning policies:
+CleanML comes pre-configured with 16 task-specific cleaning policies:
 
 * **Machine Learning Readiness:** Clips extreme tails to 99th percentiles, drops memorizable identifiers, and applies MICE.
 * **Anomaly & Fraud Detection:** Preserves every anomalous row, adds binary anomaly flags, and maintains transaction IDs.
