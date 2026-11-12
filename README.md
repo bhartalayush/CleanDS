@@ -1,6 +1,6 @@
 # CleanML: Task-Aware Automated Data Cleaning Pipeline
 
-CleanML is an intelligent, goal-oriented dataset preprocessing engine. Instead of applying one-size-fits-all heuristic scripts, CleanDS adapts its preprocessing operations based on the **intended downstream machine learning or analytical objective**.
+CleanML is an intelligent, goal-oriented dataset preprocessing engine. Instead of applying one-size-fits-all heuristic scripts, CleanML adapts its preprocessing operations based on the **intended downstream machine learning or analytical objective**.
 
 ---
 
@@ -85,13 +85,13 @@ CleanML comes pre-configured with 16 task-specific cleaning policies:
 
 ### 1. Installation
 ```bash
-git clone https://github.com/bhartalayush/CleanDS.git
-cd CleanDS
+git clone https://github.com/bhartalayush/CleanML.git
+cd CleanML
 pip install -r requirements.txt
 ```
 
 ### 2. Run the Interface
-CleanDS includes a lightweight interactive UI for testing and inspection:
+CleanML includes a lightweight interactive UI for testing and inspection:
 ```bash
 streamlit run app.py
 ```
@@ -101,7 +101,7 @@ streamlit run app.py
 ## 📁 Repository Structure
 
 ```text
-CleanDS/
+CleanML/
 ├── app.py                      # Clean interface for dataset upload and processing
 ├── requirements.txt            # Minimal dependencies (pandas, scikit-learn, torch)
 ├── README.md                   # System documentation and architecture breakdown
